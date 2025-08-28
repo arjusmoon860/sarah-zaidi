@@ -15,7 +15,7 @@ export default function Navbar() {
 
                     <div className="items-center gap-10 hidden md:flex">
                         <StaggeredLink className="text-black" href="#about-me">About Me</StaggeredLink>
-                        <StaggeredLink className="text-black" href="#services">Procedures</StaggeredLink>
+                        <StaggeredLink className="text-black" href="#procedures">Procedures</StaggeredLink>
                         <StaggeredLink className="text-black" href="#contact">Contact Us</StaggeredLink>
                     </div>
                 </div>

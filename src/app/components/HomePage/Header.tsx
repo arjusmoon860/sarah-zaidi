@@ -107,7 +107,7 @@ export default function Header() {
 
                         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-[#000]/80" />
 
-                        <div ref={doctorDetailsRef} className="doctor-details absolute top-[10dvh] text-center md:text-left md:top-1/2 md:left-[100px] md:-translate-y-1/2">
+                        <div ref={doctorDetailsRef} className="doctor-details absolute top-0 text-center md:text-left md:top-1/2 md:left-[100px] md:-translate-y-1/2">
                             <h2 className="text-[36px] lg:text-[64px] xl:text-[clamp(64px,5vw,78px)] text-white font-bold">
                                 Dr. Sarah Zaidi
                             </h2>
@@ -115,7 +115,7 @@ export default function Header() {
                                 Cluster Business Director  | Dadar, Mumbai, Maharashtra
                             </p>
 
-                            <StaggeredLink href="/" className="bg-white mx-auto md:mr-auto md:ml-0 py-2 px-4 rounded-full text-[#d7003c] mt-6">
+                            <StaggeredLink href="/" className="bg-[#b61e42] mx-auto md:mr-auto md:ml-0 py-2 px-4 rounded-full text-white mt-6">
                                 <span>Schedule Consultation</span>
                             </StaggeredLink>
                         </div>

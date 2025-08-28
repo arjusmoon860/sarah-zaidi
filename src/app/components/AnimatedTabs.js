@@ -124,7 +124,7 @@ const AnimatedTabs = ({
                 <div className="flex flex-col items-start pt-4 pr-10 lg:pr-10">
                     {/* Header */}
                     <div className="flex flex-col gap-8 mb-8">
-                        <h1 className="text-3xl lg:text-6xl font-semibold m-0 text-white">
+                        <h1 className="text-4xl lg:text-6xl font-semibold m-0 text-white">
                             {title}
                         </h1>
                     </div>
