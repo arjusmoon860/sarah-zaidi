@@ -179,13 +179,13 @@ const AnimatedTabs = ({
             </div>
 
             {/* Visual Column */}
-            <div className="w-full lg:w-1/2 px-2">
+            <div className="w-full hidden md:block lg:w-1/2 px-2">
                 <div className="relative w-full">
                     {tabs.map((tab, index) => (
                         <div
                             key={index}
                             ref={(el) => (visualItemsRef.current[index] = el)}
-                            className={`absolute inset-0 flex justify-start items-start w-full h-full ${activeIndex === index ? 'visible' : 'invisible'
+                            className={`md:absolute inset-0 flex justify-start items-start w-full h-full ${activeIndex === index ? 'visible' : 'invisible'
                                 }`}
                         >
                             <div className="w-full p-2 rounded-lg overflow-hidden">
