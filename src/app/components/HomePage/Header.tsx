@@ -128,7 +128,7 @@ export default function Header() {
                 </Container>
             </div>
 
-            <div className="absolute bottom-0 left-0 w-full ">
+            <div className="absolute top-[100dvh] -mt-[50px] left-0 w-full">
                 <div className="flex flex-row gap-4 justify-center">
                     <Lottie
                         animationData={scrollBottom1}
