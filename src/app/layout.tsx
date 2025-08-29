@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 import LenisProvider from "./components/LenisProvider";
 import Navbar from "./components/Navbar";
+import { GlobalCursor } from "./hooks/useGlobalCursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
         <LenisProvider>
           {children}
         </LenisProvider>
+        <GlobalCursor />
       </body>
     </html>
   );

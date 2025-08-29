@@ -108,10 +108,14 @@ export default function Header() {
                         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-[#000]/80" />
 
                         <div ref={doctorDetailsRef} className="doctor-details absolute top-0 text-center md:text-left md:top-1/2 md:left-[100px] md:-translate-y-1/2">
-                            <h2 className="text-[36px] lg:text-[64px] xl:text-[clamp(64px,5vw,78px)] text-white font-bold">
+                            <h2 className="text-[36px] leading-none lg:text-[64px] xl:text-[clamp(64px,5vw,78px)] text-white font-bold">
                                 Dr. Sarah Zaidi
                             </h2>
-                            <p className="text-[16px] lg:text-[24px] xl:text-[clamp(24px,1.5vw,32px)] text-white mt-0">
+                            <p className="text-[16px] lg:text-[24px] xl:text-[clamp(24px,1.5vw,24px)] text-white mt-0">
+                                MBBS, MS, DNB, F.ART (ICOG)
+                            </p>
+                            <hr className="my-2 border-white opacity-50" />
+                            <p className="text-[16px] lg:text-[24px] xl:text-[18px] text-white mt-0">
                                 Cluster Business Director  | Dadar, Mumbai, Maharashtra
                             </p>
 

@@ -26,3 +26,24 @@ body {
   transform-style: preserve-3d;
   transform-origin: center center;
 }
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 20px !important;
+  font-weight: 900 !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 20px !important;
+  font-weight: 900 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #b61e42 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #ffd8d8 !important;
+  opacity: 1 !important;
+}
