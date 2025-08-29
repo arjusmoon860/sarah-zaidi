@@ -4,6 +4,7 @@ import Container from "./Container";
 import Image from "next/image";
 import StaggeredLink from "./StaggeredLink/StaggeredLink";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +33,9 @@ export default function Navbar() {
                             <div className="centered-nav__inner">
                                 <ul className="centered-nav__ul flex flex-col gap-4">
                                     <div data-navigation-item="" className="centered-nav__li">
-                                        <a href="/" className="hamburger-nav__a text-black">
+                                        <Link href="/" className="hamburger-nav__a text-black">
                                             <p className="hamburger-nav__p text-black">Home</p>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div data-navigation-item="" className="centered-nav__li">
                                         <a href="#about-me" className="hamburger-nav__a text-black">
