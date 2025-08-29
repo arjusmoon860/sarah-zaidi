@@ -6,13 +6,11 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper as SwiperCore } from "swiper";
 import "swiper/css";
-import Image from 'next/image';
 
 if (typeof window !== 'undefined') {
     gsap.registerPlugin(ScrollTrigger);
 }
 
-// Sample data - replace with your actual data structure
 const procedureData = {
     section_title: "ICSI Procedure",
     sub_title: "Advanced Fertility Treatment",

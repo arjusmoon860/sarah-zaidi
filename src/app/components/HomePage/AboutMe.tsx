@@ -3,7 +3,7 @@ import StaggeredLink from "../StaggeredLink/StaggeredLink";
 
 export default function AboutMe() {
     return (
-        <div className="bg-white py-10 md:py-[120px]">
+        <div className="bg-white py-10 md:py-[120px]" id="about-me">
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-[120px]">
                     <div className="flex flex-col gap-6">

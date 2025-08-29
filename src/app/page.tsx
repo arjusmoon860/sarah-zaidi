@@ -3,6 +3,7 @@ import WhyUs from "./components/HomePage/WhyUs";
 import ProcedureVideo from "./components/HomePage/ProcedureVideo";
 import AboutMe from "./components/HomePage/AboutMe";
 import Socials from "./components/HomePage/Socials";
+import ContactSection from "./components/HomePage/ContactSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyUs />
       <ProcedureVideo />
       <Socials />
+      <ContactSection />
     </div>
   );
 }
