@@ -12,7 +12,7 @@ export default function Navbar() {
         <>
             <div className="fixed top-4 left-0 w-full z-50" data-navigation-status={isOpen ? 'active' : 'not-active'}>
                 <Container>
-                    <div className={`bg-[#ffd8d8] transition-[height] duration-300 ease-in-out ${isOpen ? 'rounded-t-3xl rounded-b-3xl' : 'rounded-full'}`}>
+                    <div className={`bg-[#ffd8d8] md:mx-6 transition-[height] duration-300 ease-in-out ${isOpen ? 'rounded-t-3xl rounded-b-3xl' : 'rounded-full'}`}>
                         <div className={`flex py-4 justify-between items-center md:mx-6 transition-[height] duration-300 ease-in-out px-8`}>
                             <div className="logo">
                                 <Image src="/indira-ivf.png" className="w-[40%]" alt="Logo" width={804} height={203} />
