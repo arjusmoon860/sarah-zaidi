@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
     description: 'Dr. Sarah Zaidi Merchant, MBBS, MS (OBG), DNB (OG), F.ART (ICOG), is a leading gynecologist and fertility specialist in Dadar West, Mumbai, with 13+ years of experience in IVF, IUI, ICSI, and infertility treatments. Dedicated to compassionate care and advanced reproductive solutions.',
-    url: 'https://yourwebsite.com',
+    url: 'https://www.sarahzaidi.in',
     siteName: 'Dr. Sarah Zaidi Merchant',
     images: [
       {
-        url: 'https://sarahzaidi.in/og-image.png',
+        url: 'https://www.sarahzaidi.in/og-image.png',
         width: 1366,
         height: 695,
         alt: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
     description: 'Dr. Sarah Zaidi Merchant, MBBS, MS (OBG), DNB (OG), F.ART (ICOG), is a leading gynecologist and fertility specialist in Dadar West, Mumbai, with 13+ years of experience in IVF, IUI, ICSI, and infertility treatments. Dedicated to compassionate care and advanced reproductive solutions.',
-    images: ['https://sarahzaidi.in/og-image.png'],
+    images: ['https://www.sarahzaidi.in/og-image.png'],
   },
 };
 
