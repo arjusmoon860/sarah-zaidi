@@ -53,6 +53,20 @@ export default function ProcedureVideo() {
     const lastSlideIndex = useRef(-1);
     const isUpdatingSwiper = useRef(false);
 
+    // Preload all images
+    const preloadImages = (imagePaths: string[]) => {
+        return Promise.all(
+            imagePaths.map((path) => {
+                return new Promise<void>((resolve, reject) => {
+                    const img = new window.Image();
+                    img.onload = () => resolve();
+                    img.onerror = () => reject(new Error(`Failed to load image: ${path}`));
+                    img.src = path;
+                });
+            })
+        );
+    };
+
     useEffect(() => {
         if (!sectionRef.current || !imageRef.current) return;
 
@@ -62,6 +76,13 @@ export default function ProcedureVideo() {
         });
 
         let currentFrame = 0;
+
+        // Preload all images first
+        preloadImages(frames).then(() => {
+            console.log('All images preloaded successfully');
+        }).catch((error) => {
+            console.error('Error preloading images:', error);
+        });
 
         const tl = gsap.timeline({
             scrollTrigger: {
