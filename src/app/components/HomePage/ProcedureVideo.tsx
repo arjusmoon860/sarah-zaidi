@@ -78,9 +78,7 @@ export default function ProcedureVideo() {
         let currentFrame = 0;
 
         // Preload all images first
-        preloadImages(frames).then(() => {
-            console.log('All images preloaded successfully');
-        }).catch((error) => {
+        preloadImages(frames).then().catch((error) => {
             console.error('Error preloading images:', error);
         });
 
