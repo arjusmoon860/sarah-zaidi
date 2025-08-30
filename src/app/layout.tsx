@@ -23,7 +23,29 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai",
   description: "Dr. Sarah Zaidi Merchant, MBBS, MS (OBG), DNB (OG), F.ART (ICOG), is a leading gynecologist and fertility specialist in Dadar West, Mumbai, with 13+ years of experience in IVF, IUI, ICSI, and infertility treatments. Dedicated to compassionate care and advanced reproductive solutions.",
-  keywords: "Dr Sarah Zaidi Merchant, IVF specialist Mumbai, fertility doctor Mumbai, best gynecologist in Dadar, infertility treatments Mumbai, ICSI specialist, IUI treatment, PCOS infertility care"
+  keywords: "Dr Sarah Zaidi Merchant, IVF specialist Mumbai, fertility doctor Mumbai, best gynecologist in Dadar, infertility treatments Mumbai, ICSI specialist, IUI treatment, PCOS infertility care",
+  openGraph: {
+    title: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
+    description: 'Dr. Sarah Zaidi Merchant, MBBS, MS (OBG), DNB (OG), F.ART (ICOG), is a leading gynecologist and fertility specialist in Dadar West, Mumbai, with 13+ years of experience in IVF, IUI, ICSI, and infertility treatments. Dedicated to compassionate care and advanced reproductive solutions.',
+    url: 'https://yourwebsite.com',
+    siteName: 'Dr. Sarah Zaidi Merchant',
+    images: [
+      {
+        url: 'https://sarahzaidi.in/og-image.png',
+        width: 1366,
+        height: 695,
+        alt: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dr. Sarah Zaidi Merchant | Fertility & IVF Specialist in Mumbai',
+    description: 'Dr. Sarah Zaidi Merchant, MBBS, MS (OBG), DNB (OG), F.ART (ICOG), is a leading gynecologist and fertility specialist in Dadar West, Mumbai, with 13+ years of experience in IVF, IUI, ICSI, and infertility treatments. Dedicated to compassionate care and advanced reproductive solutions.',
+    images: ['https://sarahzaidi.in/og-image.png'],
+  },
 };
 
 export default function RootLayout({
